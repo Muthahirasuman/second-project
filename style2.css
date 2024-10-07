@@ -112,6 +112,10 @@ header {
     color: white;
     cursor: pointer;
 }
+.btn-online {
+    display: flex;
+    gap: 12px;
+}
 
 .featured-overlay {
     position: absolute;
@@ -131,11 +135,12 @@ section {
 .movie-row {
     display: flex;
     background-color: black;
+    gap: 20px;
 }
 
 .movie-item {
     text-align: center;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .movie-item img {
@@ -356,10 +361,12 @@ h4 {
 h2 {
     background-color: black;
 }
+.footer.section {
+    display: flex;
+    gap: 20px;
+}
 
-
-
-/* Responsive styles */
+/*Responsive styles*/
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -378,12 +385,61 @@ h2 {
 
     .menu-icon {
         display: block;
-    }
+    } */
 
-    .auth-buttons {
+     .auth-buttons {
         display: none;
+        gap: 12px;
+    } 
+    .movie-item img {
+        /* width: 200px; */
+        width: 200px;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
     }
-}
+    /* Media query for screens with a max-width of 768px */
+/* @media (max-width: 768px) { */
+    /* Make the container full width and center the content */
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    /* Stack the columns vertically */
+    .mxplayer-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Adjust image sizes for smaller screens */
+    .mxplayer-section img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Ensure the text and content areas are responsive */
+    .mxplayer-content {
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    /* Fix the QR code section - stack it below content */
+    .qr-section {
+      width: 100%;
+      text-align: center;
+      margin: 20px 0;
+    }
+  
+    /* Buttons responsive */
+    .btn {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
+  
+
 @media (max-width: 576px) { 
     .nav-links {
         display: none;
@@ -395,7 +451,7 @@ h2 {
         top: 60px;
         left: 0;
     }
-    .logo {
+ .logo {
     font-size: 1.5rem;
 }
 h4 {
@@ -414,6 +470,13 @@ h4 {
 
     .auth-buttons {
         display: none;
+    }
+    .movie-item img {
+        /* width: 200px; */
+        width: 200px;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
     }
  }
  @media (max-width: 992px) { 
@@ -443,3 +506,83 @@ h4 {
         display: none;
     }
  }
+ /* Media query for screens with a max-width of 350px */
+@media (max-width: 350px) {
+    /* Container adjustments */
+    .container {
+      width: 100%;
+      padding: 5px;
+    }
+  
+    /* Stack everything vertically */
+    .mxplayer-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Images responsive, scale to fit */
+    .mxplayer-section img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Ensure the text and buttons are responsive */
+    .mxplayer-content {
+      font-size: 14px; /* Smaller text for smaller screens */
+      text-align: center;
+      margin: 5px 0;
+    }
+  
+    /* Adjust the QR code section */
+    .qr-section {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    /* Buttons span full width and reduce padding */
+    .btn {
+      width: 100%;
+      padding: 8px;
+      font-size: 14px;
+      margin: 3px 0;
+    }
+  
+    /* Specific adjustment for footer or extra content */
+    .footer {
+      font-size: 12px;
+      padding: 5px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 575.98px) {
+    /* Add your styles for small screens here */
+    
+    /* Example: changing font size and layout for mobile */
+    body {
+        font-size: 14px;
+    }
+    
+    .container {
+        padding: 10px;
+        margin: 0 auto;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .image-gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+}
+
+  
