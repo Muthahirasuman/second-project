@@ -5,23 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MXPlayer Clone - Navbar</title>
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 </head>
 <body>
 
     <header>
         <nav class="navbar">
-            <div class="logo">MXPlayer Clone</div>
+            <div class="header-icon">
+                 <!-- <img src="amazon.png" alt="amazon"> -->
+                  <h3>amazon</h3>
+                <!-- <i class="fa-solid fa-circle-play"></i> -->
+                 <img src="https://mxplayer-in.netlify.app/images/mx%20logo.png" alt="">
+                 <h3> MXPlayer</h3>  
+            </div>
             <input type="checkbox" id="menu-toggle">
             <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul class="nav-links">
+                <i class="fa-solid fa-house" style="color: #1552bc;"></i>
                 <li><a href="#">Shows</a></li>
                 <li><a href="#">Movies</a></li>
                 <li><a href="#">New & Hot</a></li>
+                <i class="fa-solid fa-fire" style="color: #e6700f;"></i>
                 <li><a href="#">MX VDesi</a></li>
                 <li><a href="#">Trailers</a></li>
+                <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
             </ul>
             <div class="auth-buttons">
                 <button class="login-btn">Login</button>
@@ -29,26 +37,43 @@
             </div>
         </nav>
     </header>
+    
     <div class="container">
         <section class="featured">
             <div class="featured-content">
+                    <div class="bc-rating-label">U/A 16+</div>
                 <h4>MX Original Series: Bhaukaal</h4>
                 <p>Hindi | Crime, Thriller, Action</p>
                 <div class="btn-online">
                 <button class="play-btn">Play</button>
                 <button class="more-info-btn">More Info</button>
-                <!-- <div class="featured-overlay"></div> -->
                 <button class="watch-list-btn">
                     <span class="icon">&#9733;</span> Add to Watch List
                 </button>
             </div>
+        </div>
+                <div class="bs-dots">
+                    <div class="dot active"></div>
+                    <div class="dot "></div>
+                    <div class="dot "></div>
+                    <div class="dot "></div>
+                    <div class="dot "></div>
+                    <div class="dot "></div>
+                </div>
+           
+           
+           
+            <div class="bs-nav-cont">
+                <div><i class="bs-left-nav v-center"></div></i><span class="material-symbols-outlined"> 
+                 <img src="left-arrow.png" alt=""></span>
+                <div class="bs-right-nav v-center"></div><span class="material-symbols-outlined">
+                    <img src="right-arrow (1).png" alt=""></span>
             </div>
+            
     </div>
     </section>
-
-    <!-- Trending Movies Section -->
     <section class="trending">
-        <h2>Trending In Movies</h2>
+        <h2>Trending In Movies <span>view all </span><i class="fa-solid fa-greater-than"></i></h2>
         <div class="scroll-bar">
         <div class="movie-row">
             <div class="fa-solid">
@@ -83,7 +108,6 @@
                 </div>
                 <div class="movie-item">
                     <img src="img10.webp" alt="Movie 10">
-                    <div class=" fa-angle-right"><i class="fa-solid fa-angle-right"></i></div>
                     
                 </div>
             </div>
@@ -94,7 +118,7 @@
 
     <!-- MX Original Web Shows Section -->
     <section class="mx-originals">
-        <h2>MX Original Web Shows</h2>
+        <h2>MX Original Web Shows <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
         <div class="scroll-bar">
         <div class="movie-row">
             <div class="movie-item">
@@ -133,7 +157,7 @@
     <!-- Edge-of-the-seat thrillers -->
     <section class="mx-originals">
         <div class="scroll-bar">
-        <h2>Edge-of-the-seat thrillers</h2>
+        <h2>Edge-of-the-seat thrillers <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
         <div class="movie-row">
             <div class="movie-item">
                 <img src="img21.webp" alt="Show 1">
@@ -170,7 +194,7 @@
     </section>
     <!-- miniTV Top Shows -->
     <section class="mx-originals">
-        <h2>miniTV Top Shows</h2>
+        <h2>miniTV Top Shows <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
         <div class="scroll-bar">
         <div class="movie-row">
             <div class="movie-item">
@@ -208,7 +232,7 @@
     </section>
     <!-- Popular Web Shows in Tamil -->
     <section class="mx-originals">
-        <h2>Popular Web Shows in Tamil</h2>
+        <h2>Popular Web Shows in Tamil <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
         <div class="scroll-bar">
         <div class="movie-row">
             <div class="movie-item">
@@ -247,7 +271,7 @@
     <!-- Your Favorites FOR FREE -->
 
     <section class="mx-originals">
-        <h2>Your Favorites FOR FREE</h2>
+        <h2>Your Favorites FOR FREE <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
         <div class="scroll-bar">
         <div class="movie-row">
             <div class="movie-item">
@@ -285,7 +309,7 @@
     </section>
     <!-- Blockbuster Movies -->
     <section class="mx-originals">
-        <h2>Blockbuster Movies</h2>
+        <h2>Blockbuster Movies <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
         <div class="scroll-bar">
         <div class="movie-row">
             <div class="movie-item">
@@ -323,7 +347,7 @@
     </section>
     <!-- On Popular Demand -->
     <section class="mx-originals"></section>
-    <h2>On Popular Demand</h2>
+    <h2>On Popular Demand <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -361,7 +385,7 @@
     </section>
     <!-- Top Movies This Week -->
     <section class="mx-originals"></section>
-    <h2>Top Movies This Week</h2>
+    <h2>Top Movies This Week <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -399,7 +423,7 @@
     </section>
     <!-- Trending In Movies -->
     <section class="mx-originals"></section>
-    <h2>Trending In Movies</h2>
+    <h2>Trending In Movies <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -437,7 +461,7 @@
     </section>
     <!-- Melody Show -->
     <section class="mx-originals"></section>
-    <h2>Melody Show</h2>
+    <h2>Melody Show <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -475,7 +499,7 @@
     </section>
     <!-- Top Shows This Week -->
     <section class="mx-originals"></section>
-    <h2>Top Shows This Week</h2>
+    <h2>Top Shows This Week <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -513,7 +537,7 @@
     </section>
     <!-- Top Korean Shows -->
     <section class="mx-originals"></section>
-    <h2>Top Korean Shows</h2>
+    <h2>Top Korean Shows <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -551,7 +575,7 @@
     </section>
     <!-- Best Romantic Shows -->
     <section class="mx-originals"></section>
-    <h2>Best Romantic Shows</h2>
+    <h2>Best Romantic Shows <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -589,7 +613,7 @@
     </section>
     <!-- Romantic Shows - VDesi -->
     <section class="mx-originals"></section>
-    <h2>Romantic Shows - VDesi</h2>
+    <h2>Romantic Shows - VDesi <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -627,7 +651,7 @@
     </section>
     <!-- New In VDesi -->
     <section class="mx-originals"></section>
-    <h2>New In VDesi</h2>
+    <h2>New In VDesi <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -665,7 +689,7 @@
     </section>
     <!-- Top Turkish Shows -->
     <section class="mx-originals"></section>
-    <h2>Top Turkish Shows</h2>
+    <h2>Top Turkish Shows <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -703,7 +727,7 @@
     </section>
     <!-- Popular Right Now -->
     <section class="mx-originals"></section>
-    <h2>Popular Right Now</h2>
+    <h2>Popular Right Now <span>view all </span><i class="fa-solid fa-greater-than"></i></h2></h2>
     <div class="scroll-bar">
     <div class="movie-row">
         <div class="movie-item">
@@ -722,7 +746,7 @@
             <img src="img175.webp" alt="Show 5">
         </div>
         <div class="movie-item">
-            <img src="img167.webp" alt="Show 6">
+            <img src="img176.png" alt="Show 6">
         </div>
         <div class="movie-item">
             <img src="img177.webp" alt="Show 7">
@@ -743,7 +767,7 @@
     </div>
     </section>
     <footer class="main-content">
-        <div class="categories">
+        <div class="categories1">
             <div class="category">
                 <h3>Trending</h3>
                 <p>Matsya Kaand</p>
@@ -786,14 +810,20 @@
                 <p> ABP Asmita Live</p>
                 <p> ABP Majha Live</p>
             </div>
+        </div>
+                <div class="line"> 
+                    <h5><span>expand all</span><i class="fa-solid fa-angle-down" style="color: #1e5cc8;"></i></h5>
+                </div>
+                <div class="categories2">
             <div class="category">
                 <h3>Down the Lane</h3>
                 <p> 2020 Hindi Movies</p>
                 <p>2014 Tamil Movies</p>
                 <p>2021 Movies</p>
             </div>
+          
             <div class="category">
-                <h3></h3>Trending on MX
+                <h3>Trending on MX</h3>
                 <p> Dillogical</p>
                 <p>Gutar Gu</p>
                 <p>Highway Love</p>
@@ -834,6 +864,10 @@
                 <p>DayDreamer</p>
                 <p>Suspicious Partner</p>
             </div>
+        </div>
+        <div class="line2"> 
+            <h5><span>expand all</span><i class="fa-solid fa-angle-down" style="color: #1e5cc8;"></i></h5>
+        </div>
             <div class="section">
                 <div class="paragraph">
                     <h3>Watch the Latest Movies in Hindi, Tamil, Telugu and Kannada Online on MX Player</h3>
@@ -848,7 +882,6 @@
                     <p>If you miss an episode of your favourite TV show, do not</p>
                 </div>
             </div>
-        </div>
 
         <div class="footer section">
         <div class="footer-links">
@@ -897,15 +930,36 @@
 
 
             </div>
-            <div class="img">
+            <div class="code">
                 <img src="mx-app-qr-v2.png" alt="">
             </div>
         </div>
     </div>
     </div>
+    <div class="footer sec-other- apps-section">
+        <div class="legal-text">Copyright © 2022 MX Media &amp; Entertainment. All rights reserved.</div>
+        <div class="other-app-content">
+            <div class="outer-hd">Checkout Other Apps</div>
+            <div class="other-apps">
+                <div class="other-app">
+                    <div class="detail-content">
+                        <div class="download-apps"><a href="https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.share" target="_blank"><img src="https://assets-6.mxplay.com/static/mxoneweb/desktop/images/mx-sharekaro.png" alt="mx share karo" class="icon"></a></div>
+                        <div class="download-apps mx-live"><a href="https://play.google.com/store/search?q=https://mxlive.onelink.me/JJXZ/f9yhb3rd&amp;c=apps" target="_blank" rel="noopener noreferrer"><img src="https://assets-6.mxplay.com/static/mxoneweb/desktop/images/mx-live.png" alt="mx live" class="icon"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 </div>
 
     </footer>
+    <div class="download-app-floating"><a href="/download-apps?fromStack=promotionPosition">
+    </a><div class="da-text"><a href="/download-apps?fromStack=promotionPosition"></a><a href="https://www.mxplayer.in/download-apps?fromStack=promotionPosition"><span>Download MX
+                Player App</span></a>
+    </div> <!--class="da-icon"-->
+    <img class=" da-icon" src="https://mxplayer-in.netlify.app/images/mx%20logo.png" alt="logo">
+</div>
 
 
 </body>
